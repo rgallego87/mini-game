@@ -1,0 +1,48 @@
+/* div, section, header, nav, img,aside, article,h1,h2 {
+  border: 1px solid red; 
+} */
+
+/* ---- reset ---- */
+
+html {
+  box-sizing: border-box;
+}
+
+*,* :before, *:after {
+  box-sizing: inherit;
+} 
+ 
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;  
+  margin: 20px;
+  padding: 0;    
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;  
+  width: 320px;
+  margin: 0 auto;    
+}
+
+.box {  
+  background-color: red;
+  height: 80px;
+  width: 80px;
+  margin:2px;
+  line-height: 80px;
+  text-align: center;
+  color: white;
+}
+
+.box-start {
+  background-color: blue;
+}
+
+.box-end {
+  align-self: flex-end;  
+  background-color: green;
+}
+
+
